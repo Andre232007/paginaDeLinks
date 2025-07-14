@@ -1,4 +1,4 @@
-import profileData from "./profile.json";
+import profileData from "./profile.json"; 
 
 document.title = "Links de " + profileData.name + " " + profileData.lastName;
 

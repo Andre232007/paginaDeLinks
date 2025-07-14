@@ -73,10 +73,23 @@
 }
 
 .card__links li:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(60, 83, 53, 0.3);
+  transform: scale(1.02);
+  box-shadow: 0 5px 10px rgba(60, 83, 53, 0.3);
 }
 
+.svg-icon svg:hover {
+  transform: scale(1.2);
+  
+}
+.card__social-links img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+  fill: #8cba80;
+}
+.svg-icon svg,
+.card__social-links img {
+  transition: transform 0.3s ease, fill 0.3s ease, filter 0.3s ease;
+}
 
 .card__links li {
   border-radius: 17px;
@@ -109,6 +122,11 @@
 
   list-style: none;
   gap: 59px;
+}
+.card-header__profile-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(60, 83, 53, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card__social-links img {
